@@ -1,9 +1,22 @@
 {
-  "name": "forvo-addon",
-  "title": "forvo-addon",
-  "id": "jid1-tx4yUyqnAjrpqA",
-  "description": "a basic add-on",
-  "author": "",
-  "license": "MPL 2.0",
-  "version": "0.1"
+    "name": "forvo-addon",
+    "title": "Pronunciations by Forvo",
+    "id": "jid1-tx4yUyqnAjrpqA",
+    "description": "Adds a context menu item with Forvo pronunciations",
+    "author": "Dmitry Sandalov <dmitry@sandalov.org>",
+    "license": "GPL 2.0",
+    "version": "0.1",
+
+    "preferences": [{
+        "name": "apiKey",
+        "title": "Enter your Forvo API key",
+        "description": "Grab one at http://api.forvo.com",
+        "type": "string"
+    },
+    {
+        "name": "language",
+        "title": "Default language (en, ru, etc.)",
+        "description": "Leave blank for auto mode",
+        "type": "string"
+    }]
 }
