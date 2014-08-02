@@ -8,12 +8,6 @@
     "version": "0.1",
 
     "preferences": [{
-        "name": "apiKey",
-        "title": "Enter your Forvo API key",
-        "description": "Grab one at http://api.forvo.com",
-        "type": "string"
-    },
-    {
         "name": "language",
         "title": "Default language (en, ru, etc.)",
         "description": "Leave blank for auto mode",
